@@ -1,0 +1,16 @@
+Instance ID
+
+i-00224e5bb9ffe383e (DOCKER)
+Connect using a Public IP
+Connect using a public IPv4 or IPv6 address
+Connect using a Private IP
+Connect using a private IP address and a VPC endpoint
+Public IPv4 address
+13.204.67.178
+IPv6 address
+–
+Username
+Enter the username defined in the AMI used to launch the instance. If you didn't define a custom username, use the default username, ec2-user.
+ec2-user
+
+Note: In most cases, the default username, ec2-user, is correct. However, read your AMI usage instructions to check if the AMI owner has changed the default AMI username.
