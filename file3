@@ -1,0 +1,17 @@
+To change the name of a branch in Git, you can use the following command. Make sure you are on the branch you want to rename or specify the branch name directly.
+
+If you are currently on the branch you want to rename, use:
+
+bash
+
+Run
+Copy code
+git branch -m new-branch-name
+If you are not on the branch you want to rename, use:
+
+bash
+
+Run
+Copy code
+git branch -m old-branch-name new-branch-name
+Replace old-branch-name with the current name of the branch and new-branch-name with the desired new name.
