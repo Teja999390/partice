@@ -1,0 +1,5 @@
+Session Manager usage:
+Connect to your instance without SSH keys, a bastion host, or opening any inbound ports.
+Sessions are secured using an AWS Key Management Service key.
+You can log session commands and details in an Amazon S3 bucket or CloudWatch Logs log group.
+Configure sessions on the Session Manager Preferences  page.
