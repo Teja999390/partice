@@ -1,0 +1,13 @@
+$ [3657:3657:0718/141103.827068:ERROR:object_proxy.cc(576)] Failed to call method: org.freedesktop.ScreenSaver.GetActive: object_path= /org/freedesktop/ScreenSaver: org.freedesktop.DBus.Error.NotSupported: This method is not part of the idle inhibition specification: https://specifications.freedesktop.org/idle-inhibit-spec/latest/
+Created TensorFlow Lite XNNPACK delegate for CPU.
+Attempting to use a delegate that only supports static-sized tensors with a graph that has dynamic-sized tensors (tensor#141 is a dynamic-sized tensor).
+[3657:3684:0718/141106.522933:ERROR:registration_request.cc(291)] Registration response error message: DEPRECATED_ENDPOINT
+[3756:3756:0718/141120.057573:ERROR:gl_surface_presentation_helper.cc(260)] GetVSyncParametersIfAvailable() failed for 1 times!
+[3657:3684:0718/141128.337820:ERROR:registration_request.cc(291)] Registration response error message: DEPRECATED_ENDPOINT
+[3756:3756:0718/141156.522605:ERROR:gl_surface_presentation_helper.cc(260)] GetVSyncParametersIfAvailable() failed for 2 times!
+[3756:3756:0718/141210.774441:ERROR:gl_surface_presentation_helper.cc(260)] GetVSyncParametersIfAvailable() failed for 3 times!
+[3657:3684:0718/141225.792297:ERROR:registration_request.cc(291)] Registration response error message: DEPRECATED_ENDPOINT
+[3657:3684:0718/141414.525062:ERROR:registration_request.cc(291)] Registration response error message: DEPRECATED_ENDPOINT
+[3657:3684:0718/141804.179066:ERROR:registration_request.cc(291)] Registration response error message: DEPRECATED_ENDPOINT
+[3657:3684:0718/142503.843638:ERROR:registration_request.cc(291)] Registration response error message: DEPRECATED_ENDPOINT
+[3657:3657:0718/142828.862545:ERROR:interface_endpoint_client.cc(722)] Message 1 rejected by interface blink.mojom.WidgetHost
