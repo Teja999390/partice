@@ -16,3 +16,15 @@ Preparing        :                                                              
   Verifying        : perl-Git-2.47.1-1.amzn2023.0.3.noarch                                                                                                                                                     6/8 
   Verifying        : perl-TermReadKey-2.38-9.amzn2023.0.2.x86_64                                                                                                                                               7/8 
   Verifying        : perl-lib-0.65-477.amzn2023.0.7.x86_64    
+WARNING:
+  A newer release of "Amazon Linux" is available.
+
+  Available Versions:
+
+  Version 2023.8.20250715:
+    Run the following command to upgrade to 2023.8.20250715:
+
+      dnf upgrade --releasever=2023.8.20250715
+
+    Release notes:
+     https://docs.aws.amazon.com/linux/al2023/release-notes/relnotes-2023.8.20250715.html
