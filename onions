@@ -1,0 +1,61 @@
+Installed:
+  jenkins-2.504.3-1.1.noarch                                                                                                                                                                                       
+
+Complete!
+Created symlink /etc/systemd/system/multi-user.target.wants/jenkins.service → /usr/lib/systemd/system/jenkins.service.
+[root@ip-172-31-13-51 ~]# systemctl status jenkins
+● jenkins.service - Jenkins Continuous Integration Server
+     Loaded: loaded (/usr/lib/systemd/system/jenkins.service; enabled; preset: disabled)
+     Active: active (running) since Mon 2025-07-21 15:47:43 UTC; 18s ago
+   Main PID: 20379 (java)
+      Tasks: 44 (limit: 1111)
+     Memory: 363.5M
+        CPU: 17.230s
+     CGroup: /system.slice/jenkins.service
+             └─20379 /usr/bin/java -Djava.awt.headless=true -jar /usr/share/java/jenkins.war --webroot=/var/cache/jenkins/war --httpPort=8080
+
+Jul 21 15:47:35 ip-172-31-13-51.ap-south-1.compute.internal jenkins[20379]: This may also be found at: /var/lib/jenkins/secrets/initialAdminPassword
+Jul 21 15:47:35 ip-172-31-13-51.ap-south-1.compute.internal jenkins[20379]: *************************************************************
+Jul 21 15:47:35 ip-172-31-13-51.ap-south-1.compute.internal jenkins[20379]: *************************************************************
+Jul 21 15:47:35 ip-172-31-13-51.ap-south-1.compute.internal jenkins[20379]: *************************************************************
+Jul 21 15:47:43 ip-172-31-13-51.ap-south-1.compute.internal jenkins[20379]: 2025-07-21 15:47:43.609+0000 [id=31]        INFO        jenkins.InitReactorRunner$1#onAttained: Completed initialization
+Jul 21 15:47:43 ip-172-31-13-51.ap-south-1.compute.internal jenkins[20379]: 2025-07-21 15:47:43.631+0000 [id=24]        INFO        hudson.lifecycle.Lifecycle#onReady: Jenkins is fully up and running
+Jul 21 15:47:43 ip-172-31-13-51.ap-south-1.compute.internal systemd[1]: Started jenkins.service - Jenkins Continuous Integration Server.
+Jul 21 15:47:45 ip-172-31-13-51.ap-south-1.compute.internal jenkins[20379]: 2025-07-21 15:47:45.306+0000 [id=47]        INFO        h.m.DownloadService$Downloadable#load: Obtained the updated data file for huds>
+Jul 21 15:47:45 ip-172-31-13-51.ap-south-1.compute.internal jenkins[20379]: 2025-07-21 15:47:45.308+0000 [id=47]        INFO        hudson.util.Retrier#start: Performed the action check updates server successfu>
+Jul 21 15:47:48 ip-172-31-13-51.ap-south-1.compute.internal jenkins[20379]: 2025-07-21 15:47:48.741+0000 [id=70]        WARNING        h.n.DiskSpaceMonitorDescriptor#markNodeOfflineOrOnline: Making Built-In Nod>
+...skipping...
+
+                   SUMMARY OF LESS COMMANDS
+
+      Commands marked with * may be preceded by a number, N.
+      Notes in parentheses indicate the behavior if N is given.
+      A key preceded by a caret indicates the Ctrl key; thus ^K is ctrl-K.
+
+  h  H                 Display this help.
+  q  :q  Q  :Q  ZZ     Exit.
+ ---------------------------------------------------------------------------
+
+                           MOVING
+
+  e  ^E  j  ^N  CR  *  Forward  one line   (or N lines).
+  y  ^Y  k  ^K  ^P  *  Backward one line   (or N lines).
+  f  ^F  ^V  SPACE  *  Forward  one window (or N lines).
+  b  ^B  ESC-v      *  Backward one window (or N lines).
+  z                 *  Forward  one window (and set window to N).
+  w                 *  Backward one window (and set window to N).
+  ESC-SPACE         *  Forward  one window, but don't stop at end-of-file.
+  d  ^D             *  Forward  one half-window (and set half-window to N).
+  u  ^U             *  Backward one half-window (and set half-window to N).
+  ESC-)  RightArrow *  Right one half screen width (or N positions).
+  ESC-(  LeftArrow  *  Left  one half screen width (or N positions).
+  ESC-}  ^RightArrow   Right to last column displayed.
+  ESC-{  ^LeftArrow    Left  to first column.
+  F                    Forward forever; like "tail -f".
+  ESC-F                Like F but stop when search pattern is found.
+  r  ^R  ^L            Repaint screen.
+  R                    Repaint screen, discarding buffered input.
+        ---------------------------------------------------
+        Default "window" is the screen height.
+        Default "half-window" is half of the screen height.
+ ---------------------------------------------------------------------------
